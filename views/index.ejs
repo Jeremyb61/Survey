@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Dojo Survey</h1>
+    <form action="/process" method="post">
+        <h3>Your name</h3>
+        <input class="form-control" type="text" placeholder="Full Name" name="name">
+        <hr>
+        <h3>Dojo location</h3>
+        <select name="location">
+            <option value="Berkely">Berkely</option>
+            <option value="Burbank">Burbank</option>
+            <option value="Seattle">Seattle</option>
+            <option value="DC">DC</option>
+            <option value="New York">New York</option>
+        </select>
+        <hr>
+        <h3>Favorite Language</h3>
+        <select name="lang">
+            <option value="Javascript">Javascript</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="c++">C++</option>
+            <option value="Swift">Swift</option>
+        </select>
+        <hr>
+        <h3>Comment (optional):</h3>
+        <textarea name="comment" id="" cols="60" rows="5"></textarea>
+        <p></p>
+        <input type="submit">
+    </form>
+
+</body>
+</html>
